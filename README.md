@@ -28,7 +28,7 @@ class About extends Me
         ];
     }
     
-    public function currentlyLeaning(): array
+    public function currentlyLearning(): array
     {
          return [
             Reactjs::class,
