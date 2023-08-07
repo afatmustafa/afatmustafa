@@ -9,8 +9,9 @@ class About extends Me
     {
         return [
             'workplace' => [
-                'company' => 'Verymoney',
-                'position' => 'Lead Developer'         
+                'company' => 'Miova',
+                'company_website' => 'miova.com.tr',
+                'position' => 'Co-Owner & Developer'         
             ]
         ];
     }
@@ -31,7 +32,6 @@ class About extends Me
     public function getCurrentlyLearning(): array
     {
          return [
-            Reactjs::class,
             Shopify::class,
             Deno::class,
         ];
