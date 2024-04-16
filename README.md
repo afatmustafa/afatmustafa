@@ -22,18 +22,14 @@ class About extends Me
             Php::class,
             Laravel::class,
             Vuejs::class,
-            Nuxtjs::class,
-            Javascript::class,
-            Aws::class,
-            MongoDb::class,
+            Javascript::class
         ];
     }
     
     public function getCurrentlyLearning(): array
     {
          return [
-            Shopify::class,
-            Deno::class,
+            Shopify::class
         ];
     }
 
