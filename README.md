@@ -1,24 +1,30 @@
 ```typescript
 export class About {
-  public getCurrentWorkplace(): { workplace: Workplace } {
-    return {
-      workplace: {
+  public getCurrentWorkplaces(): Workplace[] {
+    return [
+      {
+        company: "Fidkeep",
+        website: "fidkeep.com",
+        position: "Co-Founder & CEO",
+      },
+      {
         company: "Miova",
         website: "miova.com.tr",
         position: "Co-Owner & CTO",
       },
-    };
+    ];
   }
 
   public getDailyKnowledge(): DailyKnowledge {
     return {
-      backend: ["Laravel", "Hono"],
-      frontend: ["TypeScript", "Next.js"],
+      languages: ["TypeScript", "PHP"],
+      backend: ["Encore", "Laravel"],
+      frontend: ["React", "TanStack Start", "Next.js"],
     };
   }
 
   public getCurrentlyLearning(): string[] {
-    return ["Expo", "TanStack"];
+    return ["Effect", "Expo"];
   }
 
   public getFutureGoal(): string {
